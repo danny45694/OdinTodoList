@@ -3,9 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="template.js"></script>
     <title>Todo List</title>
 </head>
 <body>
-    
+    <div class="sidebar">
+        <ul>
+            <li>Add Task</li>
+            <li>Search</li>
+            <li>Inbox</li>
+            <li>Today</li>
+            <li>Upcoming</li>
+            <li>Filters & Labels</li>
+
+        </ul>
+            <ul>
+                <li>Favorites</li>
+                <li>Work</li>
+            </ul>
+
+        <ul>
+            <li>My Projects</li>
+            <li>Work</li>
+            <li>Home</li>
+            <li>Personal</li>
+        </ul>
+    </div>
+
+    <div class="mainContent">
+        <form id="inputField">
+            <input type="text" name="listItem" placeholder="Enter list item here">
+    </div>
+    <div class="submitButton">
+        <input type="submit" value="Submit" />
+    </div>
+    </form>
+
+    <div class="rightHandSideBar">
+        <ul>
+            <li>Priority</li>
+            <li>High</li>
+            <li>Medium</li>
+            <li>Low</li>
+        </ul>
+    </div>
 </body>
 </html>
