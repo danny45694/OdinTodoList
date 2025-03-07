@@ -8,6 +8,7 @@
     <title>Todo List</title>
 </head>
 <body>
+    <div class="background">
     <div class="sidebar">
         <ul>
             <li>Add Task</li>
@@ -32,13 +33,20 @@
     </div>
 
     <div class="mainContent">
-        <form id="inputField">
-            <input type="text" name="listItem" placeholder="Enter list item here">
-    </div>
-    <div class="submitButton">
-        <input type="submit" value="Submit" />
-    </div>
+    <form class="inputField">
+        <input type="text" id="task" name="task" placeholder="Add Task">
+        <input type="submit" value="Add">
     </form>
+    <div class="listItems">
+            <ul>
+                <li>Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li>
+                <li>Task 4</li>
+                <li>Task 5</li>
+            </ul>
+        </div>
+    </div>
 
     <div class="rightHandSideBar">
         <ul>
@@ -48,5 +56,6 @@
             <li>Low</li>
         </ul>
     </div>
+</div>
 </body>
 </html>
